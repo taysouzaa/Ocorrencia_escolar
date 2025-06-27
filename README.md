@@ -1,6 +1,6 @@
 # 📚 Automação de Registro de Ocorrências Escolares
 
-
+---
 
 ### 👩‍💻 Desenvolvido por: **Taynara Souza**
 
@@ -54,22 +54,23 @@ Integra formulários online, planilhas no Google Sheets e envio automático de e
 
 ## 📋 Como Usar
 
-```bash
-1. Configure os formulários Google Forms (ocorrência e parecer pedagógico).
-2. Configure as planilhas no Google Sheets com os nomes:
-   - registro_ocorrencia_escolar
-   - parecer_pedagogico
-3. Importe o workflow no n8n (arquivo JSON na pasta `/workflows/` ou configure manualmente).
-4. Ajuste as credenciais Google e Gmail no n8n.
+1. Configure os formulários Google Forms (ocorrência e parecer pedagógico).  
+2. Configure as planilhas no Google Sheets com os nomes:  
+   - `registro_ocorrencia_escolar`  
+   - `parecer_pedagogico`  
+3. Importe o workflow no n8n (arquivo JSON na pasta `/workflows/` ou configure manualmente).  
+4. Ajuste as credenciais Google e Gmail no n8n.  
 5. Teste o fluxo preenchendo os formulários.
 
 ---
 
-## 🤝 Contribuição
-Este é um projeto pessoal, mas contribuições são bem-vindas!
+## 🤝 Contribuição & Contato
+
+Este é um projeto pessoal, mas contribuições são bem-vindas!  
 Para dúvidas, sugestões ou melhorias, abra uma issue.
 
-📬 Contato
-📧 taynara.souza.dev@gmail.com
+📧 Para contato: taynara.souza.dev@gmail.com
+
+---
 
 ⭐ Obrigada por visitar o projeto! ⭐
