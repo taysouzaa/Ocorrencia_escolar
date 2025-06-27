@@ -65,7 +65,7 @@ Integra formulários online, planilhas no Google Sheets e envio automático de e
 
 ---
 
-🤝 Contribuição
+## 🤝 Contribuição
 Este é um projeto pessoal, mas contribuições são bem-vindas!
 Para dúvidas, sugestões ou melhorias, abra uma issue.
 
