@@ -1,4 +1,4 @@
-# 📚 Automação de Registro de Ocorrências Escolares
+# 📚 R.O.E – Registro de Ocorrência Escolar
 
 ---
 
@@ -8,8 +8,8 @@
 
 ## 🚀 Sobre o Projeto
 
-Projeto pessoal para a **Escola Gustavo Peccinini** que automatiza o registro de ocorrências escolares e o parecer pedagógico.  
-Integra formulários online, planilhas no Google Sheets e envio automático de e-mails para a coordenação, otimizando a comunicação e o controle das ocorrências.
+**R.O.E – Registro de Ocorrência Escolar** é um projeto pessoal desenvolvido para a **Escola Gustavo Peccinini**, com o objetivo de automatizar o fluxo de registro de ocorrências escolares e pareceres pedagógicos.  
+A automação integra formulários online, planilhas Google Sheets e envio automático de e-mails, facilitando a comunicação entre professores e coordenação pedagógica.
 
 ---
 
@@ -20,7 +20,7 @@ Integra formulários online, planilhas no Google Sheets e envio automático de e
 - Enviar e-mail automático com link para parecer pedagógico;
 - Salvar os pareceres na planilha `parecer_pedagogico`;
 - Pré-preencher campos do parecer via URL;
-- Automatizar tudo pelo n8n.
+- Automatizar todo o processo com n8n.
 
 ---
 
@@ -28,9 +28,9 @@ Integra formulários online, planilhas no Google Sheets e envio automático de e
 
 - ✅ Formulário para professores registrarem ocorrências;  
 - ✅ Armazenamento automático em Google Sheets;  
-- ✅ E-mail automático para coordenação;  
-- ✅ Formulário para parecer pedagógico;  
-- ✅ Fluxos testados e funcionando.
+- ✅ E-mail automático para coordenação com link personalizado;  
+- ✅ Formulário para parecer pedagógico com campos pré-preenchidos;  
+- ✅ Fluxos totalmente testados e funcionando.
 
 ---
 
@@ -70,6 +70,7 @@ Este é um projeto pessoal, mas contribuições são bem-vindas!
 Para dúvidas, sugestões ou melhorias, abra uma issue.
 
 📧 Para contato: taynara.souza.dev@gmail.com
+
 
 ---
 
