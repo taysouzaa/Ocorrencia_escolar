@@ -1,0 +1,245 @@
+{
+  "name": "Parecer_Pedagógico",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Parecer Pedagógico!",
+        "formDescription": "Providências recorrentes aos comportamentos indevidos de alunos!",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Nome do Aluno ",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "RA",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Medidas ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Advertência oral"
+                  },
+                  {
+                    "option": "Advertência/repreensão oral"
+                  },
+                  {
+                    "option": "Notificação aos familiares"
+                  },
+                  {
+                    "option": "Encaminhamento aos órgãos ou autoridades competentes"
+                  },
+                  {
+                    "option": "Reposição ou pagamento dos bens danificados"
+                  },
+                  {
+                    "option": "Informar o supervisor"
+                  },
+                  {
+                    "option": "Boletim de ocorrência"
+                  },
+                  {
+                    "option": " Conselho tutelar"
+                  },
+                  {
+                    "option": "Apuração preliminar"
+                  },
+                  {
+                    "option": " Registro no PLACON"
+                  }
+                ]
+              },
+              "multiselect": true
+            },
+            {
+              "fieldLabel": "MEDIDAS PEDAGÓGICAS/REPARATÓRIAS",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Recomendação quanto a providenciar material escolar"
+                  },
+                  {
+                    "option": "Recomendação quanto a entrega de atividades e trabalhos escolares"
+                  },
+                  {
+                    "option": "Recomendações quanto as atitudes em sala de aula"
+                  },
+                  {
+                    "option": "Recomendação quanto a observar os horários"
+                  },
+                  {
+                    "option": "Retratações verbais"
+                  },
+                  {
+                    "option": "Limpeza de dependências e mobiliários"
+                  },
+                  {
+                    "option": "Supervisão de um professor tutor"
+                  },
+                  {
+                    "option": "Informações quant a procedimentos de saúde"
+                  },
+                  {
+                    "option": "Acolhimento e escuta do estudante"
+                  },
+                  {
+                    "option": "Ação e projetos formativos"
+                  },
+                  {
+                    "option": "Psicóloga da Educação"
+                  },
+                  {
+                    "option": "CAPSI"
+                  }
+                ]
+              },
+              "multiselect": true
+            },
+            {
+              "fieldLabel": "OBSERVAÇÃO"
+            }
+          ]
+        },
+        "options": {
+          "buttonLabel": "Submit"
+        }
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        160
+      ],
+      "id": "28b42f30-b1bc-4068-8c2a-449147415eb2",
+      "name": "Parecer.Pedg",
+      "webhookId": "a3c3efc6-f83d-4a93-86d6-8733e2662e08"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1f_4WoV4k3g6jgmgbVnWjs2qWtlyMf5RsNukE5hWe8H4",
+          "mode": "list",
+          "cachedResultName": "Resultado.Ocorrencia",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1f_4WoV4k3g6jgmgbVnWjs2qWtlyMf5RsNukE5hWe8H4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1829307178,
+          "mode": "list",
+          "cachedResultName": "Página2",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1f_4WoV4k3g6jgmgbVnWjs2qWtlyMf5RsNukE5hWe8H4/edit#gid=1829307178"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "MEDIDAS ": "={{ $json['Medidas '][0] }}",
+            "MEDIDAS PEDAGÓGICAS/REPARATÓRIAS": "={{ $json['MEDIDAS PEDAGÓGICAS/REPARATÓRIAS'][0] }}",
+            "OBSERVAÇÃO": "={{ $json['OBSERVAÇÃO'] }}",
+            "RA ": "={{ $json.RA }}",
+            "NOME DO ALUNO ": "={{ $json['Nome do Aluno '] }}"
+          },
+          "matchingColumns": [
+            "NOME DO ALUNO "
+          ],
+          "schema": [
+            {
+              "id": "NOME DO ALUNO ",
+              "displayName": "NOME DO ALUNO ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "RA ",
+              "displayName": "RA ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "MEDIDAS ",
+              "displayName": "MEDIDAS ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "MEDIDAS PEDAGÓGICAS/REPARATÓRIAS",
+              "displayName": "MEDIDAS PEDAGÓGICAS/REPARATÓRIAS",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "OBSERVAÇÃO",
+              "displayName": "OBSERVAÇÃO",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        220,
+        160
+      ],
+      "id": "194dcbe4-035b-4a7d-9141-2e62f34ba602",
+      "name": "Google Sheets10",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Y9n2dGxGwEm0cqgp",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Parecer.Pedg": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets10",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "343e71c9-4f51-4b8f-a3cd-e648a4df5456",
+  "meta": {
+    "instanceId": "eee653bd6603fee56ee40255ad4455ede6affe29ac5475e4b3e961aca9a18712"
+  },
+  "id": "DHJot74Ce4NV06R9",
+  "tags": []
+}

@@ -1,0 +1,653 @@
+{
+  "name": "Registro_Ocorrencia_Escolar",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Ocorrência Escolar",
+        "formDescription": "Automatização das ocorrências escolares,\nGustavo Peccinini.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "  Nome do Aluno:  ",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "RA:",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": " Ano",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "6"
+                  },
+                  {
+                    "option": "7"
+                  },
+                  {
+                    "option": "8"
+                  },
+                  {
+                    "option": "9"
+                  },
+                  {
+                    "option": "1"
+                  },
+                  {
+                    "option": "2"
+                  },
+                  {
+                    "option": "3"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Série",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "A"
+                  },
+                  {
+                    "option": "B"
+                  },
+                  {
+                    "option": "C"
+                  },
+                  {
+                    "option": "D"
+                  },
+                  {
+                    "option": "E"
+                  },
+                  {
+                    "option": "F"
+                  },
+                  {
+                    "option": "G"
+                  },
+                  {
+                    "option": "H"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "  Nome do Professor:  ",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "E-mail",
+              "fieldType": "email",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Data:",
+              "fieldType": "date",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "  Disciplina:  ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Matemática"
+                  },
+                  {
+                    "option": "Língua Portugues"
+                  },
+                  {
+                    "option": "Inglês"
+                  },
+                  {
+                    "option": "Geografia"
+                  },
+                  {
+                    "option": "História"
+                  },
+                  {
+                    "option": "Ciências"
+                  },
+                  {
+                    "option": "Biologia"
+                  },
+                  {
+                    "option": "Química"
+                  },
+                  {
+                    "option": "Física"
+                  },
+                  {
+                    "option": "Filosofia"
+                  },
+                  {
+                    "option": "Sociologia"
+                  },
+                  {
+                    "option": "Artes"
+                  },
+                  {
+                    "option": "Educação Física"
+                  },
+                  {
+                    "option": "Educação Financeira"
+                  },
+                  {
+                    "option": "Redação e Leitura"
+                  },
+                  {
+                    "option": "Orientação de Estudos"
+                  },
+                  {
+                    "option": "Projeto de Vida"
+                  },
+                  {
+                    "option": "Empreendedorismo"
+                  },
+                  {
+                    "option": "Carreira e Competência"
+                  },
+                  {
+                    "option": "Técnico em Administração"
+                  },
+                  {
+                    "option": "Tecnico em Desenvolvimento de Sistemas"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "  Tipo da Ocorrência:  ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Ação violenta de grupos/gangues;"
+                  },
+                  {
+                    "option": "Agressão fisica;"
+                  },
+                  {
+                    "option": "Agressão verbal;"
+                  },
+                  {
+                    "option": "Ameaça;"
+                  },
+                  {
+                    "option": "Bullying/humilhação sistēmica;"
+                  },
+                  {
+                    "option": "Discriminação;"
+                  },
+                  {
+                    "option": "Assédio e/ou abuso sexual;"
+                  },
+                  {
+                    "option": "Violência sexual e/ou estupro;"
+                  },
+                  {
+                    "option": "Encontro de álcool ou outras drogas abandonadas ou escondidas, que não estavam em posse de alguém;"
+                  },
+                  {
+                    "option": "Tráfico/Venda de drogas ilícitas;"
+                  },
+                  {
+                    "option": "Uso de álcool, tabaco ou outras drogas licitas;"
+                  },
+                  {
+                    "option": "Uso de drogas ilícitas;"
+                  },
+                  {
+                    "option": "Venda de álcool ou tabaco para menores;"
+                  },
+                  {
+                    "option": "Cyberbullying;"
+                  },
+                  {
+                    "option": "Cyber agressão;"
+                  },
+                  {
+                    "option": "Furto;"
+                  },
+                  {
+                    "option": "Invasão;"
+                  },
+                  {
+                    "option": "Roubo;"
+                  },
+                  {
+                    "option": "Vandalismo Depredação;"
+                  },
+                  {
+                    "option": "Posse ou encontro de armas ou outros objetos perigosos;"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Questões disciplinares:",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Episódios de indisciplina recorrente;"
+                  },
+                  {
+                    "option": "Saída injustificada de atividade pedagógica sala de aula;"
+                  },
+                  {
+                    "option": "Utilização indevida de aparelhos eletrônicos;"
+                  },
+                  {
+                    "option": "Nenhum"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Outros problemas de vulnerabilidade:",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Acidentes;"
+                  },
+                  {
+                    "option": "Alunos vítimas de maus tratos e/ou abandono;"
+                  },
+                  {
+                    "option": "Ausência não autorizada pelos pais ou responsáveis;"
+                  },
+                  {
+                    "option": "Desaparecimento de alunos avisados por familiares;"
+                  },
+                  {
+                    "option": "Evasão;"
+                  },
+                  {
+                    "option": "Óbito;"
+                  },
+                  {
+                    "option": "Sinais de alerta de comportamentos(demandam cuidados);"
+                  },
+                  {
+                    "option": "Violência auto infligida;"
+                  },
+                  {
+                    "option": "Nenhum"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Atitudes Indesejáveis:",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Recusa ao pedido e as decisões do professor;"
+                  },
+                  {
+                    "option": "Descumprimento do acordo de trabalho;"
+                  },
+                  {
+                    "option": "Desinteresse e não realização das atividades;"
+                  },
+                  {
+                    "option": "Atividades alheia à aula;"
+                  },
+                  {
+                    "option": "Questionamento ou respostas irônicas;"
+                  },
+                  {
+                    "option": "Zombarias;"
+                  },
+                  {
+                    "option": "Desonestidade, uso de mentiras ou dissimulação;"
+                  },
+                  {
+                    "option": "Brincadeiras constrangedoras ou despropositadas;"
+                  },
+                  {
+                    "option": "Cantorias ou barulhos que atrapalham a aula;"
+                  },
+                  {
+                    "option": "Uso de palavrões;"
+                  },
+                  {
+                    "option": "Grosserias;"
+                  },
+                  {
+                    "option": "Dormir em Sala de aula;"
+                  },
+                  {
+                    "option": "Nenhum"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Outras ocorrências que atentam contra a vida:",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Suicídio;"
+                  },
+                  {
+                    "option": "Homicídio:"
+                  },
+                  {
+                    "option": "Tentativa de homicídio:"
+                  },
+                  {
+                    "option": "Tentativa de suicídio:"
+                  },
+                  {
+                    "option": "Nenhum"
+                  }
+                ]
+              },
+              "multiselect": true,
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "DESCREVA A OCORRÊNCIA:"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -100,
+        -20
+      ],
+      "id": "b6a74a90-599f-49e4-ac8a-107aebe2191c",
+      "name": "On form submission",
+      "webhookId": "7347a51d-2096-47a1-9600-34cbac8708d1"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "=1f_4WoV4k3g6jgmgbVnWjs2qWtlyMf5RsNukE5hWe8H4",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Página1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1f_4WoV4k3g6jgmgbVnWjs2qWtlyMf5RsNukE5hWe8H4/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "RA": "={{ $json['RA:'] }}",
+            "  Nome do Professor": "={{ $json['  Nome do Professor:  '] }}",
+            "Data": "={{ $json['Data:'] }}",
+            "  Disciplina:  ": "={{ $json['  Disciplina:  '][0] }}",
+            "Tipo da Ocorrência:": "={{ $json['  Tipo da Ocorrência:  '][0] }}",
+            "Questões disciplinares:": "={{ $json['Questões disciplinares:'][0] }}",
+            "Outros problemas de vulnerabilidade:": "={{ $json['Outros problemas de vulnerabilidade:'][0] }}",
+            "Atitudes Indesejáveis:": "={{ $json['Atitudes Indesejáveis:'][0] }}",
+            "Outras ocorrências que atentam contra a vida:": "={{ $json['Outras ocorrências que atentam contra a vida:'][0] }}",
+            "DESCREVA A OCORRÊNCIA:": "={{ $json['DESCREVA A OCORRÊNCIA:'] }}",
+            "  Ano": "={{ $json[' Ano'][0] }}",
+            "Série": "={{ $json['Série'] }}",
+            "email": "={{ $json['E-mail'] }}",
+            "Nome do Aluno": "={{ $json['  Nome do Aluno:  '] }}"
+          },
+          "matchingColumns": [
+            "Nome do Aluno"
+          ],
+          "schema": [
+            {
+              "id": "Nome do Aluno",
+              "displayName": "Nome do Aluno",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "RA",
+              "displayName": "RA",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "  Ano",
+              "displayName": "  Ano",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Série",
+              "displayName": "Série",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "  Nome do Professor",
+              "displayName": "  Nome do Professor",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "email",
+              "displayName": "email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Data",
+              "displayName": "Data",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "  Disciplina:  ",
+              "displayName": "  Disciplina:  ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Tipo da Ocorrência:",
+              "displayName": "Tipo da Ocorrência:",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Questões disciplinares:",
+              "displayName": "Questões disciplinares:",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Outros problemas de vulnerabilidade:",
+              "displayName": "Outros problemas de vulnerabilidade:",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Atitudes Indesejáveis:",
+              "displayName": "Atitudes Indesejáveis:",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Outras ocorrências que atentam contra a vida:",
+              "displayName": "Outras ocorrências que atentam contra a vida:",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "DESCREVA A OCORRÊNCIA:",
+              "displayName": "DESCREVA A OCORRÊNCIA:",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        120,
+        -20
+      ],
+      "id": "f2f1dbd6-d5c0-4514-9833-29ac2fd616df",
+      "name": "Google Sheets",
+      "alwaysOutputData": true,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "Y9n2dGxGwEm0cqgp",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('Google Sheets').item.json.email }}",
+        "subject": "Registro de Ocorrência ",
+        "emailType": "text",
+        "message": "=Nova Ocorrência Escolar – {{ $json['  Nome do Professor'] }}\n\nOlá, Coordenação.\n\nUma nova ocorrência foi registrada. Seguem os detalhes:\n\n📌Dados do Aluno\n- Nome:{{ $json['Nome do Aluno'] }}\n- RA: {{ $json.RA }}\n- Ano: {{ $json['  Ano'] }}\n- Série: {{ $json['Série'] }}\n- Disciplina: {{ $json['  Disciplina:  '] }}\n\n📋Tipo de Ocorrência:\n{{ $json['Tipo da Ocorrência:'] }}\n\n🔎Categorias Marcadas:\n\n- Questões disciplinares: {{ $json['Questões disciplinares:'] }}\n- Outros problemas de vulnerabilidade:{{ $json['Outros problemas de vulnerabilidade:'] }}\n- Atitudes Indesejáveis: {{ $json['Atitudes Indesejáveis:'] }}\n- Outras ocorrências que atentam contra a vida:{{ $json['Outras ocorrências que atentam contra a vida:'] }}\n\n📝Descrição da Ocorrência:\n{{ $json['DESCREVA A OCORRÊNCIA:'] }}\n\nData do Registro:\n{{ $json.Data }}\n---\n\n🔗 Formulário de Parecer Pedagógico:  \n[Responder Parecer] https://taynaratestes.app.n8n.cloud/form/a3c3efc6-f83d-4a93-86d6-8733e2662e08\n\nAtenciosamente,  \nR.O.E – Registro de Ocorrência Escolar\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        340,
+        -20
+      ],
+      "id": "b9aa758a-a98e-4370-a35e-0446b44fde8c",
+      "name": "Gmail",
+      "webhookId": "269b615a-87dc-4df6-85a4-259f885e0f2d",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "lQUYCdPbQY3GDIv8",
+          "name": "Gmail account 2"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "5cf3a2ff-bc7a-4bd3-b684-a37938893c6c",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "eee653bd6603fee56ee40255ad4455ede6affe29ac5475e4b3e961aca9a18712"
+  },
+  "id": "Kc7mucvxgNU7SYU9",
+  "tags": []
+}
