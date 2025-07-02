@@ -1,77 +1,85 @@
-# 📚 R.O.E – Registro de Ocorrência Escolar
+# R.O.E – Registro de Ocorrência Escolar
+
+Projeto desenvolvido para a Escola Gustavo Peccinini, com o objetivo de automatizar o registro de ocorrências escolares e pareceres pedagógicos.  
+A solução integra formulários Google, planilhas e envio automático de e-mails, otimizando a comunicação entre professores e coordenação.
 
 ---
 
-### 👩‍💻 Desenvolvido por: **Taynara Souza**
+### Desenvolvido por: Taynara Souza
 
 ---
 
-## 🚀 Sobre o Projeto
+## Objetivos
 
-**R.O.E – Registro de Ocorrência Escolar** é um projeto pessoal desenvolvido para a **Escola Gustavo Peccinini**, com o objetivo de automatizar o fluxo de registro de ocorrências escolares e pareceres pedagógicos.  
-A automação integra formulários online, planilhas Google Sheets e envio automático de e-mails, facilitando a comunicação entre professores e coordenação pedagógica.
-
----
-
-## 🎯 Objetivo
-
-- Automatizar o registro de ocorrências feitas pelos professores;
-- Armazenar os dados na planilha `registro_ocorrencia_escolar`;
-- Enviar e-mail automático com link para parecer pedagógico;
-- Salvar os pareceres na planilha `parecer_pedagogico`;
-- Pré-preencher campos do parecer via URL;
-- Automatizar todo o processo com n8n.
+- Automatizar o registro de ocorrências
+- Armazenar dados em planilhas no Google Sheets
+- Enviar e-mails automáticos com link para parecer pedagógico
+- Pré-preencher campos do parecer via URL
+- Integrar e automatizar o processo com n8n
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
-- ✅ Formulário para professores registrarem ocorrências;  
-- ✅ Armazenamento automático em Google Sheets;  
-- ✅ E-mail automático para coordenação com link personalizado;  
-- ✅ Formulário para parecer pedagógico com campos pré-preenchidos;  
-- ✅ Fluxos totalmente testados e funcionando.
+- Registro de ocorrências via formulário  
+- Armazenamento automático dos dados  
+- Envio de e-mail com link personalizado  
+- Formulário de parecer com preenchimento dinâmico  
+- Fluxos no n8n 100% funcionais
 
 ---
 
-## 🗂️ Estrutura das Planilhas
+## Estrutura das Planilhas
 
-| Nome da Planilha            | Finalidade                              |
+| Planilha                    | Finalidade                             |
 |----------------------------|----------------------------------------|
-| `registro_ocorrencia_escolar` | Registro das ocorrências dos professores |
-| `parecer_pedagogico`          | Armazenamento dos pareceres preenchidos |
+| `registro_ocorrencia_escolar` | Registra ocorrências enviadas pelos professores |
+| `parecer_pedagogico`          | Registra os pareceres da coordenação         |
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- [n8n](https://n8n.io/) — Automação de workflows  
-- Google Forms — Coleta de dados  
-- Google Sheets — Armazenamento  
-- Gmail — Envio automático de e-mails  
-
----
-
-## 📋 Como Usar
-
-1. Configure os formulários Google Forms (ocorrência e parecer pedagógico).  
-2. Configure as planilhas no Google Sheets com os nomes:  
-   - `registro_ocorrencia_escolar`  
-   - `parecer_pedagogico`  
-3. Importe o workflow no n8n (arquivo JSON na pasta `/workflows/` ou configure manualmente).  
-4. Ajuste as credenciais Google e Gmail no n8n.  
-5. Teste o fluxo preenchendo os formulários.
+- [n8n](https://n8n.io) – Plataforma de automação
+- Google Forms – Coleta de dados
+- Google Sheets – Armazenamento das respostas
+- Gmail – Envio automático de mensagens
 
 ---
 
-## 🤝 Contribuição & Contato
+## Visão dos Workflows
 
-Este é um projeto pessoal, mas contribuições são bem-vindas!  
-Para dúvidas, sugestões ou melhorias, abra uma issue.
+### 1. Registro de Ocorrência → Planilha + Gmail
 
-📧 Para contato: taynara.souza.dev@gmail.com
+![Workflow de Ocorrência](./assets/workflow_ocorrencia.png)
 
+### 2. Parecer Pedagógico → Planilha
+
+![Workflow de Parecer](./assets/workflow_parecer.png)
+
+> Obs: As imagens devem ser salvas na pasta `/assets/` com os nomes indicados acima, ou substitua pelo caminho real do seu repositório.
 
 ---
 
-⭐ Obrigada por visitar o projeto! ⭐
+## Como Usar
+
+1. Crie dois formulários no Google Forms:
+   - Registro de Ocorrência
+   - Parecer Pedagógico  
+2. Crie as planilhas com os seguintes nomes:
+   - `registro_ocorrencia_escolar`
+   - `parecer_pedagogico`
+3. Importe os fluxos no n8n (JSONs disponíveis na pasta `/workflows/`)
+4. Configure suas credenciais de Google e Gmail no n8n
+5. Teste preenchendo os formulários e observe o funcionamento do fluxo
+
+---
+
+## Contato
+
+📧 taynara.souza.dev@gmail.com  
+🔗 www.linkedin.com/in/taynara-correia-souza
+
+---
+
+Obrigada por visitar o projeto!
