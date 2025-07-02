@@ -43,20 +43,6 @@ A solução integra formulários Google, planilhas e envio automático de e-mail
 
 ---
 
-## Visão dos Workflows
-
-### 1. Registro de Ocorrência → Planilha + Gmail
-
-![Workflow de Ocorrência] ![image](https://github.com/user-attachments/assets/45254c19-97d2-481e-82dc-f3edbb7ad270)
-
-### 2. Parecer Pedagógico → Planilha
-
-![Workflow de Parecer](![image](https://github.com/user-attachments/assets/15d98e18-9ac6-45eb-ab3d-bd4c869c7a5d))
-
-> Obs: As imagens devem ser salvas na pasta `/assets/` com os nomes indicados acima, ou substitua pelo caminho real do seu repositório.
-
----
-
 ## Como Usar
 
 1. Crie dois formulários no Google Forms:
