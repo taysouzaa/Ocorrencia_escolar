@@ -47,7 +47,7 @@ A solução integra formulários Google, planilhas e envio automático de e-mail
 
 ### 1. Registro de Ocorrência → Planilha + Gmail
 
-![Workflow de Ocorrência](![image](https://github.com/user-attachments/assets/58205234-351e-4c73-9ca0-9cc455521ef7))
+![Workflow de Ocorrência] ![image](https://github.com/user-attachments/assets/45254c19-97d2-481e-82dc-f3edbb7ad270)
 
 ### 2. Parecer Pedagógico → Planilha
 
