@@ -5,10 +5,6 @@ A solução integra formulários Google, planilhas e envio automático de e-mail
 
 ---
 
-### Desenvolvido por: Taynara Souza
-
----
-
 ## Objetivos
 
 - Automatizar o registro de ocorrências
@@ -51,11 +47,11 @@ A solução integra formulários Google, planilhas e envio automático de e-mail
 
 ### 1. Registro de Ocorrência → Planilha + Gmail
 
-![Workflow de Ocorrência](./assets/workflow_ocorrencia.png)
+![Workflow de Ocorrência](![image](https://github.com/user-attachments/assets/58205234-351e-4c73-9ca0-9cc455521ef7))
 
 ### 2. Parecer Pedagógico → Planilha
 
-![Workflow de Parecer](./assets/workflow_parecer.png)
+![Workflow de Parecer](![image](https://github.com/user-attachments/assets/15d98e18-9ac6-45eb-ab3d-bd4c869c7a5d))
 
 > Obs: As imagens devem ser salvas na pasta `/assets/` com os nomes indicados acima, ou substitua pelo caminho real do seu repositório.
 
