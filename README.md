@@ -43,19 +43,29 @@ A solução integra formulários Google, planilhas e envio automático de e-mail
 
 ---
 
-## Como Usar
+## Fluxos de Automação (n8n)
 
-1. Crie dois formulários no Google Forms:
-   - Registro de Ocorrência
-   - Parecer Pedagógico  
-2. Crie as planilhas com os seguintes nomes:
-   - `registro_ocorrencia_escolar`
-   - `parecer_pedagogico`
-3. Importe os fluxos no n8n (JSONs disponíveis na pasta `/workflows/`)
-4. Configure suas credenciais de Google e Gmail no n8n
-5. Teste preenchendo os formulários e observe o funcionamento do fluxo
+### 📌 Registro de Ocorrência Escolar
+
+Fluxo responsável por:
+1. Capturar dados do formulário de ocorrência
+2. Registrar na planilha do Google
+3. Enviar e-mail automático para a coordenação
+
+![Fluxo de Ocorrência Escolar](./n8n.fluxo.png)
 
 ---
+
+### 📌 Parecer Pedagógico
+
+Fluxo responsável por:
+1. Receber o parecer preenchido via formulário
+2. Registrar os dados na planilha
+
+![Fluxo de Parecer Pedagógico](./n8n.fluxo2.png)
+
+---
+
 
 ## Contato
 
