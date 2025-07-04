@@ -52,7 +52,8 @@ Fluxo responsável por:
 2. Registrar na planilha do Google
 3. Enviar e-mail automático para a coordenação
 
-![Fluxo de Ocorrência Escolar](./n8n.fluxo.png)
+![n8n fluxo2](https://github.com/user-attachments/assets/7bc22050-d142-42f6-965e-05292a9e022c)
+
 
 ---
 
@@ -62,7 +63,8 @@ Fluxo responsável por:
 1. Receber o parecer preenchido via formulário
 2. Registrar os dados na planilha
 
-![Fluxo de Parecer Pedagógico](./n8n.fluxo2.png)
+![n8n fluxo](https://github.com/user-attachments/assets/f9ad3119-7d8a-417b-b07f-a37f8ac1a7b6)
+
 
 ---
 
