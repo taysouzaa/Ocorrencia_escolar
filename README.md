@@ -49,6 +49,7 @@ Este projeto foi desenvolvido para a **Escola Gustavo Peccinini**, com o objetiv
 ---
 
 ## ⚙️ Fluxos de Automação (n8n)
+---
 
 ### 📌 Registro de Ocorrência Escolar
 
@@ -83,4 +84,3 @@ Fluxo responsável por:
 
 Obrigada por visitar o projeto!  
 Se te ajudou ou inspirou de alguma forma, não esqueça de deixar uma ⭐ no repositório!
-```
