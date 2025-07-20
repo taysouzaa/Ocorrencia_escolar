@@ -1,79 +1,86 @@
-# R.O.E – Registro de Ocorrência Escolar
+# 📝 R.O.E – Registro de Ocorrência Escolar
 
-Projeto desenvolvido para a Escola Gustavo Peccinini, com o objetivo de automatizar o registro de ocorrências escolares e pareceres pedagógicos.  
-A solução integra formulários Google, planilhas e envio automático de e-mails, otimizando a comunicação entre professores e coordenação.
+Automatize o registro de ocorrências e otimize a comunicação pedagógica
 
----
+[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Automação-34A853?logo=google-sheets)]()
+[![n8n](https://img.shields.io/badge/n8n-Automation-ff6d00?logo=n8n)]()
+[![Google Forms](https://img.shields.io/badge/Google%20Forms-Formulários-673AB7?logo=google-forms)]()
 
-## Objetivos
-
-- Automatizar o registro de ocorrências
-- Armazenar dados em planilhas no Google Sheets
-- Enviar e-mails automáticos com link para parecer pedagógico
-- Pré-preencher campos do parecer via URL
-- Integrar e automatizar o processo com n8n
+Este projeto foi desenvolvido para a **Escola Gustavo Peccinini**, com o objetivo de automatizar o processo de registro de ocorrências escolares e facilitar o preenchimento de **pareceres pedagógicos**.
 
 ---
 
-## Funcionalidades
+## 🎯 Objetivos
 
-- Registro de ocorrências via formulário  
-- Armazenamento automático dos dados  
-- Envio de e-mail com link personalizado  
-- Formulário de parecer com preenchimento dinâmico  
-- Fluxos no n8n 100% funcionais
-
----
-
-## Estrutura das Planilhas
-
-| Planilha                    | Finalidade                             |
-|----------------------------|----------------------------------------|
-| `registro_ocorrencia_escolar` | Registra ocorrências enviadas pelos professores |
-| `parecer_pedagogico`          | Registra os pareceres da coordenação         |
+- 📌 Automatizar o envio de ocorrências escolares  
+- 📊 Armazenar dados diretamente em **planilhas Google**  
+- 📧 Enviar e-mails automáticos com link para preenchimento do parecer  
+- 🔗 Pré-preencher campos do formulário de parecer via URL dinâmica  
+- 🔄 Criar fluxos de automação com o **n8n**
 
 ---
 
-## Tecnologias Utilizadas
+## ✅ Funcionalidades
 
-- [n8n](https://n8n.io) – Plataforma de automação
-- Google Forms – Coleta de dados
-- Google Sheets – Armazenamento das respostas
-- Gmail – Envio automático de mensagens
+- Registro de ocorrências via formulário Google  
+- Armazenamento automático no Google Sheets  
+- Envio de e-mail com link personalizado para parecer  
+- Formulário de parecer pedagógico com preenchimento automático  
+- Fluxos 100% automatizados e funcionais com o **n8n**
 
 ---
 
-## Fluxos de Automação (n8n)
+## 🧾 Estrutura das Planilhas
+
+| 📄 Planilha                    | 💡 Finalidade                             |
+|------------------------------|------------------------------------------|
+| `registro_ocorrencia_escolar` | Registra as ocorrências enviadas pelos professores |
+| `parecer_pedagogico`          | Armazena os pareceres preenchidos pela coordenação |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- 🔗 [n8n](https://n8n.io) – Plataforma low-code de automação  
+- 📄 Google Forms – Coleta de dados dos professores e coordenação  
+- 📊 Google Sheets – Armazenamento centralizado dos dados  
+- 📬 Gmail – Envio automatizado de e-mails com links personalizados
+
+---
+
+## ⚙️ Fluxos de Automação (n8n)
 
 ### 📌 Registro de Ocorrência Escolar
 
 Fluxo responsável por:
-1. Capturar dados do formulário de ocorrência
-2. Registrar na planilha do Google
-3. Enviar e-mail automático para a coordenação
 
-![n8n fluxo2](https://github.com/user-attachments/assets/7bc22050-d142-42f6-965e-05292a9e022c)
+1. Receber os dados enviados no formulário Google  
+2. Registrar os dados na planilha `registro_ocorrencia_escolar`  
+3. Enviar e-mail automático para a coordenação com link para o parecer  
 
+![Fluxo - Registro de Ocorrência](https://github.com/user-attachments/assets/7bc22050-d142-42f6-965e-05292a9e022c)
 
 ---
 
 ### 📌 Parecer Pedagógico
 
 Fluxo responsável por:
-1. Receber o parecer preenchido via formulário
-2. Registrar os dados na planilha
 
-![n8n fluxo](https://github.com/user-attachments/assets/f9ad3119-7d8a-417b-b07f-a37f8ac1a7b6)
+1. Capturar dados do parecer preenchido via formulário  
+2. Registrar os dados na planilha `parecer_pedagogico`
 
-
----
-
-
-## Contato
-
-📧 taynara.souza.dev@gmail.com  
-🔗 www.linkedin.com/in/taynara-correia-souza
+![Fluxo - Parecer Pedagógico](https://github.com/user-attachments/assets/f9ad3119-7d8a-417b-b07f-a37f8ac1a7b6)
 
 ---
 
-Obrigada por visitar o projeto!
+## 📬 Contato
+
+**Taynara Souza**  
+📧 [taynara.souza.dev@gmail.com](mailto:taynara.souza.dev@gmail.com)  
+🔗 [linkedin.com/in/taynara-correia-souza](https://www.linkedin.com/in/taynara-correia-souza)
+
+---
+
+Obrigada por visitar o projeto!  
+Se te ajudou ou inspirou de alguma forma, não esqueça de deixar uma ⭐ no repositório!
+```
