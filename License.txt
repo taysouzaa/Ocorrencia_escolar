@@ -1,0 +1,15 @@
+MIT License – Versão Adaptada
+
+Copyright (c) 2025 Taynara Correia de Souza
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
+deste software e dos arquivos de documentação associados (o “Software”), para lidar
+com o Software apenas para fins de estudo, visualização ou testes pessoais, desde que
+os seguintes termos sejam cumpridos:
+
+1. É **estritamente proibido copiar, modificar, publicar, redistribuir, sublicenciar e/ou vender** qualquer parte deste software **sem autorização expressa por escrito da autora**.
+2. É **obrigatório manter este aviso de copyright** em todas as cópias ou partes significativas do Software.
+3. Qualquer uso público, comercial ou publicação derivada deve ser **aprovado previamente** por Taynara Correia de Souza.
+
+O SOFTWARE É FORNECIDO “NO ESTADO EM QUE SE ENCONTRA”, SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO E NÃO INFRAÇÃO. EM NENHUM CASO A AUTORA SERÁ RESPONSÁVEL POR QUALQUER REIVINDICAÇÃO, DANO OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, ILÍCITO OU OUTRA FORMA, DECORRENTE DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO SOFTWARE.
+
